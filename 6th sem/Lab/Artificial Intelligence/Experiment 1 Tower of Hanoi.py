@@ -7,7 +7,7 @@ def TowerOfHanoi(n,from_rod,to_rod,aux_rod):
     TowerOfHanoi(n-1,aux_rod,to_rod,from_rod)
 
 n=2
-TowerOfHanoi(n,'A','B','C')
+TowerOfHanoi(n,'A','C','B')
 '''
 we move the n-1 disk from A to B 
 then last disk A  to C 
